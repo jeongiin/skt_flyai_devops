@@ -12,7 +12,7 @@ import sys
 
 def train():
     print("train")
-    print('f')
+    print('fs')
 
     lib_path = os.environ.get('LIBPATH')
     if lib_path is None:
