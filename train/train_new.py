@@ -11,6 +11,7 @@ import sys
 
 
 def train():
+    print("train")
 
     lib_path = os.environ.get('LIBPATH')
     if lib_path is None:
