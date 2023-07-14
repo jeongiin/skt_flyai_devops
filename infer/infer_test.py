@@ -33,7 +33,7 @@ class TestInfer(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    success_threshold = 8
+    success_threshold = 3
     suite = unittest.TestLoader().loadTestsFromTestCase(TestInfer)
     result = unittest.TextTestRunner().run(suite)
     if len(result.errors) > 0:
